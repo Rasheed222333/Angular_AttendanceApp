@@ -1,0 +1,23 @@
+<!-- <h3>{{label}}</h3> -->
+<div class="student-card">
+    <div class="studentRow">Name:
+        <div>{{student.name}}</div>
+    </div>
+    <div class="studentRow">RollNo:
+        <div>{{student.rollNo}}</div>
+    </div>
+    <div class="studentRow">Department:
+        <div>{{student.department}}</div>
+    </div>
+    <div class="studentRow">Institute:
+        <div>{{student.institute}}</div>
+    </div>
+    <div class="studentRow">location:
+        <div>{{student.location}}</div>
+    </div>
+    
+        <button style="background-color: green;" type="submit" (click)="submitName(student.name)">Present</button>
+        <button style="background-color: red;" type="submit">Absent</button>
+
+    
+</div>
